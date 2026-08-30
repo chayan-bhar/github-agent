@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+backend/.venv/
+venv/
+ENV/
+
+# Environment secrets
+.env
+backend/.env
+
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# IDE / OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Local data / Qdrant storage if saved locally
+qdrant_storage/
+
+# Downloaded repository is local state
+repo/
